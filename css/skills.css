@@ -194,7 +194,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: opacity var(--transition-base);
+  /* transition: opacity var(--transition-base); */
 }
 .tech-group__image.is-fading {
   opacity: 0;
