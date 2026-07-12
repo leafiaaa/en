@@ -85,4 +85,13 @@ section {
   .two__grid {
     grid-template-columns: 1fr !important;
   }
+  /* Force text-before-image order on mobile for the
+     "Accelerated Workforce Productivity" block, where the image
+     comes first in the HTML (desktop layout puts image on the left) */
+  .right__side {
+    order: 1;
+  }
+  .challenge__media.reveal--left {
+    order: 2;
+  }
 }
