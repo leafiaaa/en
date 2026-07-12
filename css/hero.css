@@ -266,11 +266,12 @@
 .skills__step-line {
   flex: 0 1 clamp(48px, 10vw, 120px);
   height: 12px;
- background-image: repeating-linear-gradient(
+  background-image: repeating-linear-gradient(
     90deg,
-    var(--color-border-strong) 0 2px,
-    transparent 2px 7px
+    var(--color-ink-tertiary) 0 3px,
+    transparent 3px 8px
   );
+  opacity: 0.55;
 }
 
 @media (max-width: 720px) {
