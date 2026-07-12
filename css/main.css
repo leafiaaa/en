@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 body{
-        background:var(--color-surface-raised);
+        background-color: var(--color-surface);
 }
 .content__margin {
   max-width: 1200px;
   margin: 0 auto;
-  /* margin-top: var(--space-8); */
 padding: var(--space-10) var(--space-6);
 
 }
