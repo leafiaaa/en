@@ -305,7 +305,7 @@ img {
 
 .vision__heading-line {
   display: block;
-  font-size: var(--scale-4xl);
+  font-size: var(--scale-3xl);
   font-weight: var(--weight-bold);
 }
 
