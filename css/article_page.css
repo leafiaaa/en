@@ -37,6 +37,19 @@ body:has(.article-page) {
   /* overflow-x: hidden; */
 }
 
+.links{
+    color: var(--color-blue);
+    font-weight: var(--weight-semibold);
+    text-decoration: none;
+}
+.links:hover{
+    color: var(--color-blue-hover);
+    text-decoration: underline;
+}
+.links:active{
+    color: var(--color-blue-active);
+    text-decoration: underline;
+}
 /* Breadcrumb */
 .article-page__breadcrumb {
   display: flex;
