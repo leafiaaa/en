@@ -11,7 +11,40 @@
   background: linear-gradient(180deg, #b2dfff 0%, #d9ecff 45%, #ffffff 100%);
   padding-block: var(--space-16) calc(var(--space-24) * 1.5);
 }
+.hero__cta {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: var(--space-3) var(--space-8);
+  border-radius: var(--radius-full);
+  background: linear-gradient(
+    90deg,
+    var(--color-blue),
+    #c60505,
+    var(--color-blue),
+    var(--color-blue)
+  );
+  background-size: 200% 100%;
+  color: var(--color-surface);
+  font-family: var(--font-en);
+  font-size: var(--scale-base);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+  white-space: nowrap;
+  animation: ctaBorderFlow 4s linear infinite;
+  transition: color 0.2s ease;
+}
 
+@keyframes ctaBorderFlow {
+  to {
+    background-position: 200% 0;
+  }
+}
+
+.hero__cta:hover {
+  background: var(--color-blue-hover);
+  color: var(--color-surface);
+  transition: all 0.3s;
+}
 /* keep real content above the decorative dot/sparkle/curve layers */
 .hero .content__margin {
   position: relative;
