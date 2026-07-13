@@ -191,7 +191,7 @@
   transition: color var(--transition-base);
 }
 .navbar__drawer ul li button {
-  padding: var(--space-3) var(--space-4);
+  padding: var(--space-2) var(--space-3);
   font-family: var(--font-en);
   font-size: var(--scale-base);
   color: var(--color-ink);
