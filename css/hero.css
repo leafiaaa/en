@@ -684,7 +684,20 @@
     bottom: -12%;
   }
 }
-
+@media (max-width: 1600px) {
+  .hero__curve {
+    position: absolute;
+    left: 50%;
+    bottom: -145%;
+    transform: translateX(-50%);
+    width: 160%;
+    aspect-ratio: 2.4 / 1;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1;
+    pointer-events: none;
+  }
+}
 @media (max-width: 480px) {
   .hero {
     padding-block: var(--space-8) var(--space-12);
