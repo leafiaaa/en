@@ -126,9 +126,9 @@
 .techniques__inner {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 /* Full-width video block */
 .techniques__video {
@@ -137,7 +137,7 @@
   margin: 0 auto var(--space-20);
   border-radius: var(--radius-xl);
   overflow: hidden;
-  gap:var(--space-4);
+  gap: var(--space-4);
 }
 
 .techniques__video-media {
@@ -321,4 +321,3 @@
 }
 
 /* === Scroll reveal: slide-in (Kolr-style) === */
-
