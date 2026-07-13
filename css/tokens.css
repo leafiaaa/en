@@ -5,7 +5,7 @@
 }
 
 :root {
-  --font-en: "Montserrat", Arial, sans-serif;
+  --font-en: "Montserrat", "Montserrat Fallback", sans-serif;
 
   /* --------------------------------------------------------------------------
      FONT SIZES
@@ -257,4 +257,10 @@
 .text-highlight {
   color: var(--color-blue);
   font-weight: var(--weight-medium);
+}
+@font-face {
+  font-family: "Montserrat Fallback";
+  src: local("Arial");
+  size-adjust: 100.2%; /* tune this so fallback matches Montserrat's width/line-height */
+  ascent-override: 96%;
 }
