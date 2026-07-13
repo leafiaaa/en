@@ -142,7 +142,7 @@ section {
 .video-modal__frame-wrap {
   width: 100%;
   max-width: 960px;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   position: relative;
 }
 .video-modal__frame-wrap iframe {
