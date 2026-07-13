@@ -140,9 +140,9 @@ section {
   display: flex;
 }
 .video-modal__frame-wrap {
-  width: 100%;
-  max-width: 960px;
-  aspect-ratio: 16 / 9; /* was 4/3 — your video is widescreen, 16:9 fits better */
+  width: min(92vw, calc(88vh * var(--modal-ratio-num, 1.7778)));
+  max-width: 1400px;
+  aspect-ratio: var(--modal-ratio, 16 / 9);
   position: relative;
 }
 
