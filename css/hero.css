@@ -702,7 +702,7 @@
 
   .hero__title {
     font-size: var(
-      --scale-2xl
+      --scale-4xl
     ); /* one step down now that it's stacked, not sharing width with the video */
   }
 
