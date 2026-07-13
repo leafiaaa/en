@@ -60,7 +60,7 @@ section {
 .quote {
   color: var(--color-blue-disabled);
   font-family: var(--font-en), var(--font-tw), var(--font-th), sans-serif;
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-semibold);
   font-size: var(--scale-sm);
   font-style: italic;
 }
