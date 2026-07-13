@@ -39,7 +39,12 @@
     background-position: 200% 0;
   }
 }
-
+.button_cta {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: var(--space-4);
+}
 .hero__cta:hover {
   background: var(--color-blue-hover);
   color: var(--color-surface);
